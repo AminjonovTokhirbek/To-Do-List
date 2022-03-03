@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600&family=Indie+Flower&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,900&display=swap');
+
+ /*font-family: 'Hind Siliguri', sans-serif;  */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+body{
+    height: 100vh;
+    background: #111;
+
+}
+h1{
+    font-size: 3rem;
+    font-weight: 50;
+    margin: 30px;
+    text-align: center;
+    color: lime;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.stil{
+    color: red;
+    font-weight: 800;
+    font-size: 30px;
+}
+.input-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.input-div .input{
+    padding: 0.5rem 1rem;
+    height: 40px;
+    outline:none;
+    background: #fff;
+    width: 350px;
+    font-size: 1rem;
+    margin: 10px;
+    border-radius: 25px;
+    border: none;
+    transition: all 0.5s linear 0s;
+    
+}
+.addbutton{
+    height: 40px;
+    width: 50px;
+    border-radius: 25px;
+    outline: none;
+    color: lime;
+    background: red;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.5s linear 0s;
+}
+.addbutton:hover{
+    opacity: 0.5;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.item{
+    padding: 0.5rem;
+    margin-top: 1.5rem;
+    border-bottom: 4px solid #fff;
+    /* margin: auto; */
+}
+.item-input{
+    background: none;
+    outline: none;
+    color: white;
+    border: none;
+    width: 270px;
+    font-size: 1rem;
+}
+.editbutton{
+    font-size: 1rem;
+    font-family: 'Hind Siliguri', sans-serif;
+    background: none;
+    outline: none;
+    color: lime;
+    border: none;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.removebutton{
+    font-size: 1rem;
+    font-family: 'Hind Siliguri', sans-serif;
+    background: none;
+    outline: none;
+    color: #e00;
+    border: none;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
